@@ -1,0 +1,2 @@
+1; No usar mascarilla;100;Leve;sábado, 17 de octubre de 2020;06777661;Lima;Lima;Lima;75074255
+3;Realizar reuniones sociales;550;Muy Grave;sábado, 7 de noviembre de 2020;06777661;Lima;Lima;San Miguel;08061539

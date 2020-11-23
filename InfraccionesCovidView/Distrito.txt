@@ -1,0 +1,8 @@
+1;Cercado de Lima;1
+2;San Miguel;1
+3;Canta;2
+4;Huaros;2
+5;Piura;3
+6;Catacaos;3
+7;Lobitos;4
+8;Pariñas;4

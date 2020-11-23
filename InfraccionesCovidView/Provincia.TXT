@@ -1,0 +1,4 @@
+1;Lima;1
+2;Canta;1
+3;Piura;2
+4;Talara;2

@@ -1,0 +1,10 @@
+C:\Users\DANIEL\Documents\LPOO\Proyecto\InfraccionesCovid\InfraccionesCovidController\Debug\InfraccionesCovidController.vcxprojAssemblyReference.cache
+C:\Users\DANIEL\Documents\LPOO\Proyecto\InfraccionesCovid\InfraccionesCovidController\Debug\InfraccionesCovidController.vcxproj.CopyComplete
+C:\Users\Asus\Desktop\InfraccionesCovid\InfraccionesCovidController\Debug\InfraccionesCovidController.vcxprojAssemblyReference.cache
+C:\Users\Asus\Desktop\InfraccionesCovid\InfraccionesCovidController\Debug\InfraccionesCovidController.vcxproj.CopyComplete
+C:\Users\User\Desktop\2020-2\LPOo\InfraccionesCovid\InfraccionesCovidController\Debug\InfraccionesCovidController.vcxprojAssemblyReference.cache
+C:\Users\User\Desktop\2020-2\LPOo\InfraccionesCovid\InfraccionesCovidController\Debug\InfraccionesCovidController.vcxproj.CopyComplete
+C:\Users\PERSONAL\Documents\2020-2\LPOO\Proyecto\InfraccionesCovid\InfraccionesCovidController\Debug\InfraccionesCovidController.vcxprojAssemblyReference.cache
+C:\Users\PERSONAL\Documents\2020-2\LPOO\Proyecto\InfraccionesCovid\InfraccionesCovidController\Debug\InfraccionesCovidController.vcxproj.CopyComplete
+C:\Users\User\Desktop\sdgsdgfd\InfraccionesCovid\InfraccionesCovidController\Debug\InfraccionesCovidController.vcxprojAssemblyReference.cache
+C:\Users\User\Desktop\sdgsdgfd\InfraccionesCovid\InfraccionesCovidController\Debug\InfraccionesCovidController.vcxproj.CopyComplete

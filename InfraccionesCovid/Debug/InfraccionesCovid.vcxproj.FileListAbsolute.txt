@@ -1,0 +1,5 @@
+C:\Users\DANIEL\Documents\LPOO\Proyecto\InfraccionesCovid\InfraccionesCovid\Debug\InfraccionesCovid.vcxprojAssemblyReference.cache
+C:\Users\Asus\Desktop\InfraccionesCovid\InfraccionesCovid\Debug\InfraccionesCovid.vcxprojAssemblyReference.cache
+C:\Users\User\Desktop\2020-2\LPOo\InfraccionesCovid\InfraccionesCovid\Debug\InfraccionesCovid.vcxprojAssemblyReference.cache
+C:\Users\PERSONAL\Documents\2020-2\LPOO\Proyecto\InfraccionesCovid\InfraccionesCovid\Debug\InfraccionesCovid.vcxprojAssemblyReference.cache
+C:\Users\User\Desktop\sdgsdgfd\InfraccionesCovid\InfraccionesCovid\Debug\InfraccionesCovid.vcxprojAssemblyReference.cache

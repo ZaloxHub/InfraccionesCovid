@@ -1,0 +1,132 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly InfraccionesCovidModel, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class InfraccionesCovidModel.Civil: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Codigo : Public
+    System.String Nombre : Public
+    System.String ApellidoMaterno : Public
+    System.String ApellidoPaterno : Public
+    System.String DNI : Public
+Class InfraccionesCovidModel.Distrito: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Codigo : Public
+    System.String Nombre : Public
+Class InfraccionesCovidModel.Provincia: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.Collections.Generic.List`1[InfraccionesCovidModel.Distrito]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Codigo : Public
+    System.String Nombre : Public
+    System.Collections.Generic.List`1[InfraccionesCovidModel.Distrito] ListaDistrito : Public
+Class InfraccionesCovidModel.Departamento: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.Collections.Generic.List`1[InfraccionesCovidModel.Provincia]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Codigo : Public
+    System.String Nombre : Public
+    System.Collections.Generic.List`1[InfraccionesCovidModel.Provincia] ListaProvincia : Public
+Class InfraccionesCovidModel.DistritosProvinciasDptoMapa: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.String, Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Imagen : Public
+    Int32 inicioX : Public
+    Int32 inicioY : Public
+    Int32 finX : Public
+    Int32 finY : Public
+    Int32 codigo : Public
+Class InfraccionesCovidModel.ProvinciasDptoMapa: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.String, Int32, Int32, Int32, Int32, Int32, System.Collections.Generic.List`1[InfraccionesCovidModel.DistritosProvinciasDptoMapa]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Imagen : Public
+    Int32 inicioX : Public
+    Int32 inicioY : Public
+    Int32 finX : Public
+    Int32 finY : Public
+    Int32 codigo : Public
+    System.Collections.Generic.List`1[InfraccionesCovidModel.DistritosProvinciasDptoMapa] ListaDetalleMapa3 : Public
+Class InfraccionesCovidModel.DepartamentosMapa: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.String, Int32, Int32, Int32, Int32, Int32, System.Collections.Generic.List`1[InfraccionesCovidModel.ProvinciasDptoMapa]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Imagen : Public
+    Int32 inicioX : Public
+    Int32 inicioY : Public
+    Int32 finX : Public
+    Int32 finY : Public
+    Int32 codigo : Public
+    System.Collections.Generic.List`1[InfraccionesCovidModel.ProvinciasDptoMapa] ListaDetalleMapa2 : Public
+Class InfraccionesCovidModel.Usuarios: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String User : Public
+    System.String Contraseña : Public
+    Int32 Codigo : Public
+Class InfraccionesCovidModel.Policias: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, System.String, System.String, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Codigo : Public
+    System.String Nombre : Public
+    System.String ApellidoMaterno : Public
+    System.String ApellidoPaterno : Public
+    System.String DNI : Public
+    System.String Rango : Public
+    System.String NumeroCIP : Public
+    InfraccionesCovidModel.Usuarios objUsuarios : Public
+Class InfraccionesCovidModel.Infracciones: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(Int32, System.String, Int32, System.String, System.String, InfraccionesCovidModel.Policias, InfraccionesCovidModel.Departamento, InfraccionesCovidModel.Provincia, InfraccionesCovidModel.Distrito, InfraccionesCovidModel.Civil): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Codigo : Public
+    System.String TipoDeInfraccion : Public
+    Int32 Multa : Public
+    System.String Severidad : Public
+    System.String Fecha : Public
+    InfraccionesCovidModel.Policias objPolicias : Public
+    InfraccionesCovidModel.Departamento objDepartamento : Public
+    InfraccionesCovidModel.Provincia objProvincia : Public
+    InfraccionesCovidModel.Distrito objDistrito : Public
+    InfraccionesCovidModel.Civil objCivil : Public
+Class InfraccionesCovidModel.MapaPeru: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.Collections.Generic.List`1[InfraccionesCovidModel.DepartamentosMapa]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Imagen : Public
+    System.Collections.Generic.List`1[InfraccionesCovidModel.DepartamentosMapa] ListaDetalleMapa : Public
+Class InfraccionesCovidModel.Mapas: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 coordInicioX : Public
+    Int32 coordInicioY : Public
+    Int32 coordFinX : Public
+    Int32 coordFinY : Public
+Class InfraccionesCovidModel.Perfiles: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidModel.Reporte: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.Collections.Generic.List`1[InfraccionesCovidModel.Infracciones]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(InfraccionesCovidModel.Provincia, System.Collections.Generic.List`1[InfraccionesCovidModel.Infracciones]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String TipoDeInfraccion : Public
+    InfraccionesCovidModel.Provincia objProvincia : Public
+    System.Collections.Generic.List`1[InfraccionesCovidModel.Infracciones] ListaInfracciones : Public
+Class InfraccionesCovidModel.ReporteDistrito: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.Collections.Generic.List`1[InfraccionesCovidModel.Infracciones]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String TipoDeInfraccion : Public
+    System.Collections.Generic.List`1[InfraccionesCovidModel.Infracciones] ListaInfracciones : Public
+Class InfraccionesCovidModel.ReporteProvincia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.Collections.Generic.List`1[InfraccionesCovidModel.Infracciones]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(InfraccionesCovidModel.Distrito, System.Collections.Generic.List`1[InfraccionesCovidModel.Infracciones]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String TipoDeInfraccion : Public
+    InfraccionesCovidModel.Distrito objDistrito : Public
+    System.Collections.Generic.List`1[InfraccionesCovidModel.Infracciones] ListaInfracciones : Public

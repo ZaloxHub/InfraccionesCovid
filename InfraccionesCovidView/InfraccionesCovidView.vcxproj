@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{A92A76AB-21E6-4EDC-AE26-A71054B70988}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>InfraccionesCovidView</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DmiPC.cpp" />
+    <ClCompile Include="frmBúsquedaEspecializada.cpp" />
+    <ClCompile Include="frmCrearCivil.cpp" />
+    <ClCompile Include="frmCrearUsuario.cpp" />
+    <ClCompile Include="frmEditarInfraccion.cpp" />
+    <ClCompile Include="frmEstadísticas.cpp" />
+    <ClCompile Include="frmInfraccionesContacto.cpp" />
+    <ClCompile Include="frmInfraccionesUsuarioCivil.cpp" />
+    <ClCompile Include="frmInicio.cpp" />
+    <ClCompile Include="frmLoginCivil.cpp" />
+    <ClCompile Include="frmLoginPolicia.cpp" />
+    <ClCompile Include="frmMapas.cpp" />
+    <ClCompile Include="frmNuevaInfraccion.cpp" />
+    <ClCompile Include="frmPantallaCivil.cpp" />
+    <ClCompile Include="frmPantallaPolicia.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DmiPC.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmBúsquedaEspecializada.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmCrearCivil.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmCrearUsuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarInfraccion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEstadísticas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmInfraccionesContacto.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmInfraccionesUsuarioCivil.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmInicio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmLoginCivil.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmLoginPolicia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMapas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaInfraccion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPantallaCivil.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPantallaPolicia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DmiPC.resx">
+      <DependentUpon>DmiPC.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBúsquedaEspecializada.resx">
+      <DependentUpon>frmBúsquedaEspecializada.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCrearCivil.resx">
+      <DependentUpon>frmCrearCivil.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCrearUsuario.resx">
+      <DependentUpon>frmCrearUsuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarInfraccion.resx">
+      <DependentUpon>frmEditarInfraccion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadísticas.resx">
+      <DependentUpon>frmEstadísticas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfraccionesContacto.resx">
+      <DependentUpon>frmInfraccionesContacto.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfraccionesUsuarioCivil.resx">
+      <DependentUpon>frmInfraccionesUsuarioCivil.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginCivil.resx">
+      <DependentUpon>frmLoginCivil.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginPolicia.resx">
+      <DependentUpon>frmLoginPolicia.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMapas.resx">
+      <DependentUpon>frmMapas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaInfraccion.resx">
+      <DependentUpon>frmNuevaInfraccion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPantallaCivil.resx">
+      <DependentUpon>frmPantallaCivil.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPantallaPolicia.resx">
+      <DependentUpon>frmPantallaPolicia.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InfraccionesCovidController\InfraccionesCovidController.vcxproj">
+      <Project>{2e6313a3-709b-4b99-8a0d-dd70e94b4f17}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\InfraccionesCovid\InfraccionesCovid.vcxproj">
+      <Project>{7665ad98-2c87-417b-895f-00ae4c0d8319}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,89 @@
+  InfraccionesCovidView.DmiPC.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmBúsquedaEspecializada.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmCrearCivil.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmCrearUsuario.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmEditarInfraccion.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmEstadísticas.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmInfraccionesContacto.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmInfraccionesUsuarioCivil.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmInicio.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmLoginCivil.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmLoginPolicia.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmMapas.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmNuevaInfraccion.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmPantallaCivil.resources - Embedded, ContainedInManifestFile, 
+  InfraccionesCovidView.frmPantallaPolicia.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly InfraccionesCovidView, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly InfraccionesCovidController, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=None, flags=None
+Assembly InfraccionesCovidModel, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class InfraccionesCovidView.frmCrearUsuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmCrearCivil: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.DmiPC: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmBúsquedaEspecializada: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(InfraccionesCovidController.GestorCiviles, InfraccionesCovidController.GestorInfracciones): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmEditarInfraccion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(InfraccionesCovidController.GestorInfracciones, InfraccionesCovidController.GestorPolicias, InfraccionesCovidController.GestorCiviles, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmEstadísticas: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(InfraccionesCovidController.GestorInfracciones): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmInfraccionesContacto: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(InfraccionesCovidController.GestorCiviles, InfraccionesCovidController.GestorInfracciones, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmInfraccionesUsuarioCivil: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(InfraccionesCovidController.GestorCiviles, InfraccionesCovidController.GestorInfracciones, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmNuevaInfraccion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(InfraccionesCovidController.GestorInfracciones, InfraccionesCovidModel.Civil, InfraccionesCovidModel.Policias): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmPantallaPolicia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmLoginPolicia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmMapas: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmPantallaCivil: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmLoginCivil: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfraccionesCovidView.frmInicio: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

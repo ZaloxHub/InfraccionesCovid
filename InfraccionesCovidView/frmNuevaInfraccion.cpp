@@ -1,0 +1,2 @@
+#include "frmNuevaInfraccion.h"
+

@@ -1,0 +1,9 @@
+﻿  Main.cpp
+C:\Users\DANIEL\Documents\LPOO\Proyecto\InfraccionesCovid\InfraccionesCovidView\Main.cpp(8,34): warning C4829: Parámetros posiblemente incorrectos para la función main. Utilice 'int main(Platform::Array<Platform::String^>^ argv)'
+  frmEstadísticas.cpp
+  frmInicio.cpp
+  frmLoginCivil.cpp
+  frmPantallaCivil.cpp
+  Generando código...
+  DmiPC.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  InfraccionesCovidView.vcxproj -> C:\Users\DANIEL\Documents\LPOO\Proyecto\InfraccionesCovid\Debug\InfraccionesCovidView.exe
