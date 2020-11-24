@@ -4,15 +4,15 @@ using namespace InfraccionesCovidController;
 using namespace System::IO;
 using namespace System;
 
-GestorReportes::GestorReportes() {
-	this->ListaReporte = gcnew List <Reporte^>();
+GestorReporteProvincia::GestorReporteProvincia() {
+	this->ListaReporte = gcnew List<Reporte^>();
 }
 
-int GestorReportes::CantidadElementosReporte() {
+int GestorReporteProvincia::CantidadElementosReporteProvincia() {
 	return this->ListaReporte->Count;
 }
 
-void GestorReportes::GenerarReporteDeTipoDeInfraccion(List<Infracciones^>^ ListaInfracciones, Provincia^ objProvincia) {
+void GestorReporteProvincia::GenerarReporteDeTipoDeInfraccionPorProvincia(List<Infracciones^>^ ListaInfracciones, Provincia^ objProvincia) {
 	this->ListaReporte->Clear();
 	List<Infracciones^>^ ListaInfraccionesLeves = gcnew List<Infracciones^>();
 	List<Infracciones^>^ ListaInfraccionesModeradas = gcnew List<Infracciones^>();
@@ -36,22 +36,18 @@ void GestorReportes::GenerarReporteDeTipoDeInfraccion(List<Infracciones^>^ Lista
 	this->ListaReporte->Add(objReporte3);
 }
 
-void GestorReportes::GenerarReporteDeCantidadDeInfracciones(List<Infracciones^>^ ListaInfracciones, Departamento^ objDepartamento) {
+void GestorReporteProvincia::GenerarReporteDeCantidadDeInfraccionesPorProvincia(List<Infracciones^>^ ListaInfracciones, Provincia^ objProvincia) {
 	this->ListaReporte->Clear();
 	List<Infracciones^>^ ListaInfraccionesPorProvincia = gcnew List<Infracciones^>();
 
-	for (int i = 0; i < objDepartamento->ListaProvincia->Count; i++) {
+	for (int i = 0; i < objProvincia->ListaProvincia->Count; i++) {
 		ListaInfraccionesPorProvincia->Clear();
 		for (int j = 0; j < ListaInfracciones->Count; j++) {
-			if (ListaInfracciones[j]->objProvincia->Nombre == objDepartamento->ListaProvincia[i]->Nombre) {
+			if (ListaInfracciones[j]->objProvincia->Nombre == objProvincia->ListaProvincia[i]->Nombre) {
 				ListaInfraccionesPorProvincia->Add(ListaInfracciones[i]);
 			}
 		}
-		Reporte^ objReporte = gcnew Reporte(objDepartamento->ListaProvincia[i], ListaInfraccionesPorProvincia);
+		Reporte^ objReporte = gcnew Reporte(objProvincia->ListaProvincia[i], ListaInfraccionesPorProvincia);
 		this->ListaReporte->Add(objReporte);
 	}
-}
-
-Reporte^ GestorReportes::ObtenerReportePorIndice(int i) {
-	return this->ListaReporte[i];
 }

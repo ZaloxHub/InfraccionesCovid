@@ -1,0 +1,52 @@
+﻿  DmiPC.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\DmiPC.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmBúsquedaEspecializada.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmBúsquedaEspecializada.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmCrearCivil.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmCrearCivil.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmCrearUsuario.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmCrearUsuario.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmEditarInfraccion.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmEditarInfraccion.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmEstadísticas.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmEstadísticas.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmInfraccionesContacto.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmInfraccionesContacto.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmInfraccionesUsuarioCivil.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmInfraccionesUsuarioCivil.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmInicio.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmInicio.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmLoginCivil.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmLoginCivil.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmLoginPolicia.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmLoginPolicia.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmMapas.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmMapas.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmNuevaInfraccion.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmNuevaInfraccion.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmPantallaCivil.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmPantallaCivil.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  frmPantallaPolicia.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\frmPantallaPolicia.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  Main.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\Main.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidView\x64\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidController.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  Generando código...

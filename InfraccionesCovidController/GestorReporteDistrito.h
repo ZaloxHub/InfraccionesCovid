@@ -10,9 +10,9 @@ namespace InfraccionesCovidController {
 		List<Reporte^>^ ListaReporte;
 
 	public:
-		GestorReportes();
-		int CantidadElementosReporte();
-		void GenerarReporteDeTipoDeInfraccion(List<Infracciones^>^ ListaInfracciones, Departamento^ objDepartamento);
-		Reporte^ ObtenerReportePorIndice(int i);
+		GestorReporteDistrito();
+		int CantidadElementosReportePorDistrito();
+		void GenerarReporteDeTipoDeInfraccionPorDistrito(List<Infracciones^>^ ListaInfracciones, Distrito^ objDistrito);
+		void GenerarReporteDeCantidadDeInfraccionesPorDistrito(List<Infracciones^>^ ListaInfracciones, Distrito^ objDistrito)
 	};
 }

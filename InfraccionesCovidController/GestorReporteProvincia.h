@@ -5,15 +5,14 @@ using namespace InfraccionesCovidModel;
 using namespace System;
 
 namespace InfraccionesCovidController {
-	public ref class GestorReportes {
+	public ref class GestorReporteProvincia {
 	private:
 		List<Reporte^>^ ListaReporte;
 
 	public:
-		GestorReportes();
-		int CantidadElementosReporte();
-		void GenerarReporteDeTipoDeInfraccion(List<Infracciones^>^ ListaInfracciones, Departamento^ objDepartamento);
-		void GenerarReporteDeCantidadDeInfracciones(List<Infracciones^>^ ListaInfracciones, Departamento^ objDepartamento);
-		Reporte^ ObtenerReportePorIndice(int i);
+		GestorReporteProvincia();
+		int CantidadElementosReporteProvincia();
+		void GenerarReporteDeTipoDeInfraccionPorProvincia(List<Infracciones^>^ ListaInfracciones, Provincia^ objProvincia);
+		void GenerarReporteDeCantidadDeInfraccionesPorProvincia(List<Infracciones^>^ ListaInfracciones, Provincia^ objProvincia);
 	};
 }

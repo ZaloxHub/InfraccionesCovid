@@ -1,0 +1,43 @@
+﻿  GestorCiviles.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorCiviles.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorDepartamentos.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorDepartamentos.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorDepartamentosMapa.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorDepartamentosMapa.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorDistritos.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorDistritos.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorDistritosProvinciasDptoMapa.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorDistritosProvinciasDptoMapa.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorInfracciones.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorInfracciones.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorPolicias.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorPolicias.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorProvincia.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorProvincia.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorProvinciasDptoMapa.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorProvinciasDptoMapa.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorReporteDistrito.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorReporteDistrito.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorReporteProvincia.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorReporteProvincia.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorReportes.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorReportes.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  GestorUsuarios.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\GestorUsuarios.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+C:\Users\Asus\Desktop\Avance 22.11.20\InfraccionesCovidController\x64\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cpp : fatal error C1192: error de #using en 'C:\Users\Asus\Desktop\Avance 22.11.20\x64\Debug\InfraccionesCovidModel.exe'
+          'El sistema no puede encontrar el archivo especificado.'
+  Generando código...

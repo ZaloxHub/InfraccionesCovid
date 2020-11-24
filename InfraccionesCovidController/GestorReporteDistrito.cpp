@@ -1,18 +1,18 @@
-#include "GestorReportes.h"
+#include "GestorReporteDistrito.h"
 
 using namespace InfraccionesCovidController;
 using namespace System::IO;
 using namespace System;
 
-GestorReportes::GestorReportes() {
+GestorReporteDistrito::GestorReporteDistrito() {
 	this->ListaReporte = gcnew List <Reporte^>();
 }
 
-int GestorReportes::CantidadElementosReporte() {
+int GestorReporteDistrito::CantidadElementosReporteDistrito() {
 	return this->ListaReporte->Count;
 }
 
-void GestorReportes::GenerarReporteDeTipoDeInfraccion(List<Infracciones^>^ ListaInfracciones, Departamento^ objDepartamento) {
+void GestorReporteDistrito::GenerarReporteDeTipoDeInfraccionPorDistrito(List<Infracciones^>^ ListaInfracciones, Distrito^ objDistrito) {
 	this->ListaReporte->Clear();
 	List<Infracciones^>^ ListaInfraccionesLeves = gcnew List<Infracciones^>();
 	List<Infracciones^>^ ListaInfraccionesModeradas = gcnew List<Infracciones^>();
@@ -36,6 +36,20 @@ void GestorReportes::GenerarReporteDeTipoDeInfraccion(List<Infracciones^>^ Lista
 	this->ListaReporte->Add(objReporte3);
 }
 
-Reporte^ GestorReportes::ObtenerReportePorIndice(int i) {
-	return this->ListaReporte[i];
+void GestorReporteDistrito::GenerarReporteDeCantidadDeInfraccionesPorDistrito(List<Infracciones^>^ ListaInfracciones, Distrito^ objDistrito) {
+	this->ListaReporte->Clear();
+	List<Infracciones^>^ ListaInfraccionesPorProvincia = gcnew List<Infracciones^>();
+
+	for (int i = 0; i < objDistrito->ListaProvincia->Count; i++) {
+		ListaInfraccionesPorProvincia->Clear();
+		for (int j = 0; j < ListaInfracciones->Count; j++) {
+			if (ListaInfracciones[j]->objProvincia->Nombre == objDistrito->ListaProvincia[i]->Nombre) {
+				ListaInfraccionesPorProvincia->Add(ListaInfracciones[i]);
+			}
+		}
+		Reporte^ objReporte = gcnew Reporte(objDistrito->ListaProvincia[i], ListaInfraccionesPorProvincia);
+		this->ListaReporte->Add(objReporte);
+	}
 }
+
+

@@ -181,6 +181,7 @@ namespace InfraccionesCovidView {
 			this->chart2->Location = System::Drawing::Point(371, 136);
 			this->chart2->Name = L"chart2";
 			series2->ChartArea = L"ChartArea1";
+			series2->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Pie;
 			series2->Legend = L"Legend1";
 			series2->Name = L"Tipo de infracción";
 			this->chart2->Series->Add(series2);
@@ -193,7 +194,7 @@ namespace InfraccionesCovidView {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(743, 614);
+			this->ClientSize = System::Drawing::Size(743, 485);
 			this->Controls->Add(this->chart2);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->label4);
